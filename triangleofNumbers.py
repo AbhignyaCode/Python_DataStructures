@@ -1,0 +1,19 @@
+n = int(input())
+i = 1
+while(i <= n):
+    j = 1
+    while(j <= n-i):
+        print(" ", end="")
+        j = j+1
+    k = 1
+    while(k <= i):
+        print(i+k-1, end="")
+        k = k+1
+    m = 1
+    s = 2*i-2
+    while( s >= i):
+        print(s ,end="")
+        s = s-1
+        m=m+1
+    print()
+    i = i+1
